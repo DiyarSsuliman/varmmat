@@ -40,13 +40,14 @@
             </div>
         </div>
     </footer>
-    <script>
+    
+    <script type="module">
+       
         const button = document.getElementById("but-ho");
         button.addEventListener("click", () => {
             window.location.href = "https://diyarssuliman.github.io";
         });
-    </script>
-    <script type="module">
+       
         import { initializeApp } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-app.js";
         import { getFirestore, addDoc, collection, updateDoc, deleteDoc, doc, setDoc, getDoc, getDocs} from "https://www.gstatic.com/firebasejs/12.10.0/firebase-firestore.js";
  
